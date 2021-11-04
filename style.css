@@ -91,3 +91,261 @@ section#welcome button {
 section#welcome button:hover {
     transform: translate(-50%, -50%) scale(1.2) rotate(180deg);
 }
+.children {
+  position: absolute;
+  background-color: chartreuse;
+  border-radius: 50%;
+}
+
+.children2 {
+  position: absolute;
+  background-color: peru;
+  border-radius: 50%;
+}
+
+#child1 {
+  display: inline-block;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  animation: child1Anim 1s ease-in-out forwards infinite alternate 0.5s; 
+}
+
+@keyframes child1Anim {
+  0% {
+    transform: translateX(0);
+  }
+
+  33% {
+    background-color: crimson;
+  }
+
+  100% {
+    transform: translateX(95vw);
+  }
+}
+
+#child2 {
+  display: inline-block;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  animation: child2Anim 1s ease-in-out forwards infinite alternate;
+}
+
+@keyframes child2Anim {
+  0% {
+    transform: translateX(0);
+  }
+
+  33% {
+    background-color: darkmagenta;
+  }
+
+  100% {
+    transform: translateX(-95vw);
+  }
+}
+
+#child3 {
+  display: inline-block;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  animation: child3Anim 1s ease-in-out forwards infinite alternate; 
+}
+
+@keyframes child3Anim {
+  0% {
+    transform: translateX(0);
+  }
+
+  33% {
+    background-color: darkmagenta;
+  }
+
+  66% {
+    background-color: yellow;
+  }
+
+  100% {
+    transform: translateY(90vh);
+  }
+}
+
+#child4 {
+  display: inline-block;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  animation: child4Anim 1s ease-in-out forwards infinite alternate 1s; 
+}
+
+@keyframes child4Anim {
+  0% {
+    transform: translateX(0);
+  }
+
+  33% {
+    background-color: darkmagenta;
+  }
+
+  66% {
+    background-color: yellow;
+  }
+
+  100% {
+    transform: translateY(90vh);
+  }
+}
+
+#child5 {
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  animation: child5Anim 1.5s ease-in-out infinite alternate 0.5s;
+}
+
+@keyframes child5Anim {
+  0% {
+    transform: translateX(0);
+  }
+
+  33% {
+    background-color: darkmagenta;
+  }
+
+  100% {
+    transform: translateX(95vw);
+  }
+}
+
+#child6 {
+  display: inline-block;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  animation: child6Anim 1.5s ease-in-out infinite alternate 1s;
+}
+
+@keyframes child6Anim {
+  0% {
+    transform: translateX(0);
+  }
+
+  33% {
+    background-color: orangered;
+  }
+
+  100% {
+    transform: translateX(-95vh);
+  }
+}
+
+
+#child7 {
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  animation: child7Anim 1.5s ease-in-out infinite alternate 1s;
+}
+
+@keyframes child7Anim {
+  0% {
+    transform: translateX(0%);
+  }
+
+  33% {
+    transform: translateX(75vw);
+    background-color: darkmagenta;
+  }
+
+  100% {
+    transform: translateY(-45vh);
+  }
+}
+
+#child8 {
+  display: inline-block;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  animation: child8Anim 1.5s ease-in-out infinite alternate 1s;
+}
+
+@keyframes child8Anim {
+  0% {
+    transform: translateX(0);
+  }
+
+  33% {
+    transform: translateY(-70vh);
+    background-color: orangered;
+  }
+
+  100% {
+    transform: translateX(-75vw);
+  }
+}
+
+#child9 {
+  display: inline-block;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  animation: child9Anim 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes child9Anim {
+  0% {
+    transform: translateX(0%);
+  }
+
+  33% {
+    transform: translateY(75vh);
+    background-color: red;
+  }
+
+  66% {
+    background-color: royalblue;
+  }
+
+  100% {
+    transform: translateX(75vw);
+  }
+}
+
+#child10 {
+  display: inline-block;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  animation: child10Anim 1.5s ease-in-out infinite alternate 1s;
+}
+
+@keyframes child10Anim {
+  0% {
+    transform: translateX(0);
+  }
+
+  33% {
+    transform: translateY(45vh);
+    background-color: slateblue;
+  }
+
+  100% {
+    transform: translateX(-45vw);
+  }
+}
